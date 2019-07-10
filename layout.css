@@ -1,0 +1,43 @@
+/* body {border-top: 10px solid #c00;} */
+
+.lhs{
+    position: absolute;
+    left: 5%;
+    width: 40%;
+}
+
+.rhs{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+}
+
+.reveal h2 {text-align: left; color: #900;
+border-bottom: 6px solid #900 !important;}
+
+section {text-align: left;}
+
+.refs {
+    position:absolute;
+    top: 620px !important;
+    left: 0px;
+    font-size: 20px !important;
+    color: #777;
+}
+
+/* Slide-specific vertical centering override */
+.reveal .slides section[data-vertical-align-top]{
+	top: 0 !important;
+}
+
+.r6 {transform: rotate(6deg);}
+.rm6 {transform: rotate(-6deg);}
+
+.w20 {width: 20%;}
+.w30 {width: 30%;}
+.w40 {width: 40%;}
+.w50 {width: 50%;}
+
+section {background: #fff;}
+
+.reveal ul ul li {font-size: 38px !important;}
